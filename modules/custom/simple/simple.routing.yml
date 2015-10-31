@@ -1,0 +1,7 @@
+simple.content:
+  path: 'simple/generate'
+  defaults:
+    _controller: '\Drupal\simple\Controller\SimpleController::generate'
+    _title: 'Simple'
+  requirements:
+    _permission: 'access content'
